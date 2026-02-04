@@ -31,6 +31,9 @@ Agora reinstala limpo:
 ```c
 wsl --install -d Ubuntu
 ```
+## Scope 
+
+variables only exists on the scope inner curly braces or global scope.
 
 ## cs50.h library
 
