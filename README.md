@@ -46,3 +46,10 @@ cp `name.c` `namecopy.c`  copy file
 mv           move
 
 
+## Scope 
+
+variables only exists on the scope inner curly braces or global scope.
+
+## Algorithms comparison
+
+<a href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html">Conclude by analysis </a>
