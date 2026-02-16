@@ -1,0 +1,3 @@
+ in resume overflow is not handled, so we can cause overflow by resuming a process with a large value in rax 
+ in resume buffer is not cleared, so we can cause overflow by resuming a process with a large value in rax and then resuming it again with a small value in rax
+ a very long pdf file can cause overflow when opened in a pdf reader that does not properly handle large files
